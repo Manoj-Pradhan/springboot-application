@@ -14,5 +14,4 @@ public class StudentName {
     this.name = name;
   }
    
-    
 }
