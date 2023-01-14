@@ -4,14 +4,15 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class StudentRoll {
-    int roll=0;
-    public void setRoll(int roll) {
-        this.roll=roll;
-    }
+    private  int roll=0;
 
-    public int getRoll() {
-      return roll;
-    }
+  public int getRoll() {
+    return roll;
+  }
+
+  public void setRoll(int roll) {
+    this.roll = roll;
+  }
 }
     
 
