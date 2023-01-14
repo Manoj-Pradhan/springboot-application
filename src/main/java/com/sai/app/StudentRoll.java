@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class StudentRoll {
-    private  int roll=0;
+    private  int roll;
 
   public int getRoll() {
     return roll;
