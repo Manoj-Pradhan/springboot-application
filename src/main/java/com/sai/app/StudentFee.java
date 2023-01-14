@@ -4,13 +4,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class StudentFee {
-    double fee=0.0;
+   private double fee;
 
-    public void setName(double fee) {
-        this.fee=fee;
-    }
+  public double getFee() {
+    return fee;
+  }
 
-    public double getFee() {
-      return fee;
-    }
+  public void setFee(double fee) {
+    this.fee = fee;
+  }
+
 }
