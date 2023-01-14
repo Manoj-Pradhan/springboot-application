@@ -14,5 +14,3 @@ public class StudentRoll {
     this.roll = roll;
   }
 }
-    
-
